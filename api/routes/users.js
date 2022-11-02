@@ -47,13 +47,12 @@ const userRoutes = (app, fs) => {
       // Note: this needs to be more robust for production use.
       // e.g. use a UUID or some kind of GUID for a unique ID value.
       const newUserId = Date.now().toString();
-
+      req.body.id = parseFloat(newUserId);
       // add the new user
       data[newUserId] = req.body;
-      console.log(req.body);
-      debugger;
       writeFile(JSON.stringify(data, null, 2), () => {
         res.status(200).send("new user added");
+        res.send(data);
       });
     }, true);
   });
