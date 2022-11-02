@@ -23,71 +23,93 @@ app.get("/", function (req, res) {
   };
   res.send(respuesta);
 });
-app.get("/usuario", function (req, res) {
-  respuesta = {
-    error: false,
-    codigo: 200,
-    mensaje: "respuesta de usuario",
-    respuesta: usuario,
-  };
 
-  if (usuario.nombre === "" || usuario.apellido === "") {
+app
+  .route("/usuario")
+  .get(function (req, res) {
     respuesta = {
       error: false,
       codigo: 200,
-      mensaje: "",
+      mensaje: "respuesta de usuario",
+      respuesta: usuario,
     };
-  }
-  res.send(respuesta);
-});
 
-app.post("/usuario", function (req, res) {
-  usuario = {
-    nombre: req.body.nombre,
-    apellido: req.body.apellido,
-  };
-  respuesta = {
-    error: false,
-    codigo: 200,
-    mensaje: "Usuario creado",
-    respuesta: usuario,
-  };
-
-  if (!req.body.nombre || !req.body.apellido) {
-    respuesta = {
-      error: true,
-      codigo: 502,
-      mensaje: "El campo nombre y apellido son requeridos",
-    };
-  } else {
-    if (usuario.nombre !== "" || usuario.apellido !== "") {
+    if (usuario.nombre === "" || usuario.apellido === "") {
       respuesta = {
-        error: true,
-        codigo: 503,
-        mensaje: "El usuario ya fue creado previamente",
+        error: false,
+        codigo: 200,
+        mensaje: "",
       };
     }
-  }
-  res.send(respuesta);
-});
-app.put("/usuario", function (req, res) {
-  usuario = {
-    nombre: req.body.nombre,
-    apellido: req.body.apellido,
-  };
-  respuesta = {
-    error: false,
-    codigo: 200,
-    mensaje: "Usuario actualizado",
-    respuesta: usuario,
-  };
-  if (!req.body.nombre || !req.body.apellido) {
-    respuesta = {
-      error: true,
-      codigo: 502,
-      mensaje: "El campo nombre y apellido son requeridos",
+    res.send(respuesta);
+  })
+  .post(function (req, res) {
+    usuario = {
+      nombre: req.body.nombre,
+      apellido: req.body.apellido,
     };
-  } else {
+    respuesta = {
+      error: false,
+      codigo: 200,
+      mensaje: "Usuario creado",
+      respuesta: usuario,
+    };
+
+    if (!req.body.nombre || !req.body.apellido) {
+      respuesta = {
+        error: true,
+        codigo: 502,
+        mensaje: "El campo nombre y apellido son requeridos",
+      };
+    } else {
+      if (usuario.nombre !== "" || usuario.apellido !== "") {
+        respuesta = {
+          error: true,
+          codigo: 503,
+          mensaje: "El usuario ya fue creado previamente",
+        };
+      }
+    }
+    res.send(respuesta);
+  })
+  .put(function (req, res) {
+    usuario = {
+      nombre: req.body.nombre,
+      apellido: req.body.apellido,
+    };
+    respuesta = {
+      error: false,
+      codigo: 200,
+      mensaje: "Usuario actualizado",
+      respuesta: usuario,
+    };
+    if (!req.body.nombre || !req.body.apellido) {
+      respuesta = {
+        error: true,
+        codigo: 502,
+        mensaje: "El campo nombre y apellido son requeridos",
+      };
+    } else {
+      if (usuario.nombre === "" || usuario.apellido === "") {
+        respuesta = {
+          error: true,
+          codigo: 501,
+          mensaje: "El usuario no ha sido creado",
+        };
+      }
+    }
+    res.send(respuesta);
+  })
+  .delete(function (req, res) {
+    respuesta = {
+      error: false,
+      codigo: 200,
+      mensaje: "Usuario eliminado",
+    };
+    usuario = {
+      nombre: "",
+      apellido: "",
+    };
     if (usuario.nombre === "" || usuario.apellido === "") {
       respuesta = {
         error: true,
@@ -95,29 +117,8 @@ app.put("/usuario", function (req, res) {
         mensaje: "El usuario no ha sido creado",
       };
     }
-  }
-  res.send(respuesta);
-});
-
-app.delete("/usuario", function (req, res) {
-  respuesta = {
-    error: false,
-    codigo: 200,
-    mensaje: "Usuario eliminado",
-  };
-  usuario = {
-    nombre: "",
-    apellido: "",
-  };
-  if (usuario.nombre === "" || usuario.apellido === "") {
-    respuesta = {
-      error: true,
-      codigo: 501,
-      mensaje: "El usuario no ha sido creado",
-    };
-  }
-  res.send(respuesta);
-});
+    res.send(respuesta);
+  });
 app.use(function (req, res, next) {
   respuesta = {
     error: true,
