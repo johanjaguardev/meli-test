@@ -40,6 +40,23 @@ const userRoutes = (app, fs) => {
       res.send(data);
     }, true);
   });
+
+  // CREATE
+  app.post("/users", (req, res) => {
+    readFile((data) => {
+      // Note: this needs to be more robust for production use.
+      // e.g. use a UUID or some kind of GUID for a unique ID value.
+      const newUserId = Date.now().toString();
+
+      // add the new user
+      data[newUserId] = req.body;
+      console.log(req.body);
+      debugger;
+      writeFile(JSON.stringify(data, null, 2), () => {
+        res.status(200).send("new user added");
+      });
+    }, true);
+  });
 };
 
 module.exports = userRoutes;
