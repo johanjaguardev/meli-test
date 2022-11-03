@@ -10,3 +10,5 @@ MELI Test
    2.1 using env variables to set up name and lastname for author
    2.2 create fake data for json database by files
    2.3 read data from fake db - READ Action and tested with postman
+   2.4 transform the request to read the info from DB, item with id
+   2.5 transform the get request to read the info from DB and expose results endpoint
