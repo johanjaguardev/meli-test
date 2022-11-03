@@ -9,3 +9,4 @@ MELI Test
    2.0 docs for meli api
    2.1 using env variables to set up name and lastname for author
    2.2 create fake data for json database by files
+   2.3 read data from fake db - READ Action and tested with postman
