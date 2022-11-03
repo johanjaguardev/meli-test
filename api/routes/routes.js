@@ -1,5 +1,6 @@
 // load up our shiny new route for users
 const itemRoutes = require("./items");
+const resultsRoutes = require("./results");
 
 const appRouter = (app, fs, storePath) => {
   // we've added in a default route here that handles empty routes
@@ -10,6 +11,7 @@ const appRouter = (app, fs, storePath) => {
 
   // run our user route module here to complete the wire up
   itemRoutes(app, fs, storePath);
+  resultsRoutes(app, fs, storePath);
 };
 
 // this line is unchanged

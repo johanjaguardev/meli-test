@@ -1,8 +1,8 @@
 const readFile = require("./../utils/readFile");
-const getItemById = () => {};
-const itemRoutes = (app, fs, storePath) => {
+
+const resultsRoutes = (app, fs, storePath) => {
   // Notice how we can make this 'read' operation much more simple now.
-  app.get(["/items/:id", "/items/:id/description"], (req, res) => {
+  app.get("/items/:id", (req, res) => {
     readFile(
       (data) => {
         const items = data.items;
@@ -35,6 +35,7 @@ const itemRoutes = (app, fs, storePath) => {
               },
             }))
         );
+        debugger;
       },
       true,
       storePath,
@@ -44,4 +45,4 @@ const itemRoutes = (app, fs, storePath) => {
   });
 };
 
-module.exports = itemRoutes;
+module.exports = resultsRoutes;
