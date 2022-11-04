@@ -16,3 +16,4 @@ MELI Test
 
 3. create frontend app with vite + react + typescript
    3.1 create frontend start project with vite ts react
+   3.2 create first react component
