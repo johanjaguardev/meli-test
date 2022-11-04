@@ -1,9 +1,9 @@
 MELI Test
 
-1. We're going to make an basic API App with node and Express.js
+1. Make an basic API App with node and Express.js
    (1-feature-basic-api)
 
-2. we're make a real api with meli data in node and express using tdd
+2. Make a real api with meli data in node and express (using tdd in point 4)
    (2-meli-api)
 
    2.0 docs for meli api
@@ -13,3 +13,6 @@ MELI Test
    2.4 transform the request to read the info from DB, item with id
    2.4.1 adding "/items/:id/description" endpoint to the same item get action
    2.5 transform the get request to read the info from DB and expose results endpoint
+
+3. create frontend app with vite + react + typescript
+   3.1 create frontend start project with vite ts react
