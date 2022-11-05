@@ -20,6 +20,6 @@ MELI Test
    3.2.1 create first tdd test with vitest working
    3.3 implement React router basic
    3.4 making some css
-   3.4.1 implement css grid layout with 12 columns
+   3.5 get results from API Backend
 
    .
