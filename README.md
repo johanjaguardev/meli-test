@@ -18,6 +18,6 @@ MELI Test
    3.1 create frontend start project with vite ts react
    3.2 create first react component
    3.2.1 create first tdd test with vitest working
-   3.3 implement React router
+   3.3 implement React router basic
 
    .

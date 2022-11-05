@@ -5,6 +5,7 @@ import "./App.css";
 import { SearchBar } from "./components/SearchBar/SearchBar";
 import { Results } from "./components/Results/Results";
 import { Detail } from "./components/Detail/Detail";
+import { Outlet, Link } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,8 +13,7 @@ function App() {
   return (
     <div className="MeliApp">
       <SearchBar />
-      <Results />
-      <Detail />
+      <Outlet />
     </div>
   );
 }
