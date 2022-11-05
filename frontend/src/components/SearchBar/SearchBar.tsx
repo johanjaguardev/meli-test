@@ -1,7 +1,8 @@
 import React from "react";
+import "./SearchBar.scss";
 
 const SearchBar = () => {
-  return <React.Fragment>SearchBar</React.Fragment>;
+  return <div className="searchbar">SearchBar</div>;
 };
 
 export { SearchBar };
