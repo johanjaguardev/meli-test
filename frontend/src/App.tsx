@@ -17,7 +17,8 @@ function App() {
       <Routes>
         <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
-        <Route path="/items" element={<Results query="BBCITA" />} />
+        <Route path="/items" element={<Results />} />
+        <Route path="/items/:id" element={<Detail />} />
       </Routes>
 
       {/*  */}
