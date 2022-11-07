@@ -1,11 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { FC } from "react";
+import { useLocation } from "react-router-dom";
 
-const Results = () => {
+const Results: FC<{ query: string }> = ({ query }) => {
+  const location = useLocation();
+
+  if (location.state.query !== "") {
+    query = location.state.query;
+  }
+
   return (
     <React.Fragment>
-      {" "}
-      <Link to="/detail">Detail</Link> |{" "}
+      <b>Query: </b>
+      {query}
     </React.Fragment>
   );
 };

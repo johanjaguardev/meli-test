@@ -20,6 +20,7 @@ MELI Test
    3.2.1 create first tdd test with vitest working
    3.3 implement React router basic
    3.4 making some css
-   3.5 get results from API Backend
+   3.5 passing props between searchbox and results and detail components \*
+   3.6 connecting with backend
 
    .
