@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./SearchBar.scss";
 import meliLogo from "./../../../public/Logo_ML@2x.png";
-import { useNavigate } from "react-router-dom";
 
 const SearchBar = () => {
-  const navigate = useNavigate();
   const [query, setQuery] = useState("");
   return (
     <div className="searchbar">

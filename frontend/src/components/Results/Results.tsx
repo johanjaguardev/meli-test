@@ -8,7 +8,6 @@ import { Item } from "../Item/Item";
 const Results: FC<{ query?: string }> = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const search = searchParams.get("search");
-
   const store = new Store();
   const [data, setData] = useState([]);
 
