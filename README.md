@@ -22,7 +22,8 @@ MELI Test
    3.4 making some css
    3.5 passing props between searchbox and results and detail components
    3.6 connecting with backend
-   3.7 write first component home with all the results \*
+   3.7 write first component home with all the results
+   3.7.1 change redirect with window href location with react router 6 alternative \*
    3.8 write component results with query in searchbox
    3.9 write detail component with if from results
 

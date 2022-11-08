@@ -16,7 +16,7 @@ const SearchBar = () => {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <button onClick={() => navigate("/items?search=" + query)}>
+      <button onClick={() => (window.location.href = "/items?search=" + query)}>
         {query}
       </button>
     </div>
