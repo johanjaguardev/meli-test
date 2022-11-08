@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./SearchBar.scss";
-import meliLogo from "./../../../../assets/Logo_ML.png";
+import meliLogo from "./../../../public/Logo_ML@2x.png";
 import { useNavigate } from "react-router-dom";
 
 const SearchBar = () => {

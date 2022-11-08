@@ -1,3 +1,4 @@
+const { debug } = require("console");
 const readFile = require("./../utils/readFile");
 
 const resultsRoutes = (app, fs, storePath) => {
@@ -40,6 +41,19 @@ const resultsRoutes = (app, fs, storePath) => {
               condition: item.condition,
               free_shipping: item.free_shipping,
             }));
+        } else if (!/\?.+/.test(req.url)) {
+          results = items.map((item) => ({
+            id: item.id,
+            title: item.title,
+            price: {
+              currency: item.price.currency,
+              amount: item.price.value.toString().split(".")[0],
+              decimal: item.price.value.toString().split(".")[1],
+            },
+            picture: `${process.env.ASSETS_PATH}/${item.picture}`,
+            condition: item.condition,
+            free_shipping: item.free_shipping,
+          }));
         }
         res.send({
           author: {
