@@ -1,6 +1,4 @@
-import { type } from "@testing-library/user-event/dist/types/setup/directApi";
 import React, { FC, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { useSearchParams } from "react-router-dom";
 import { Store } from "../../store/store";
 import { Item } from "../Item/Item";

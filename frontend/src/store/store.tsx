@@ -23,6 +23,16 @@ class Store {
       return response.json();
     }
   };
+
+  getItemById = async (id: string) => {
+    const response = await fetch(`${this.url}/${id}`);
+
+    if (!response.ok) {
+      throw new Error("Data coud not be fetched!");
+    } else {
+      return response.json();
+    }
+  };
 }
 
 export { Store };

@@ -4,4 +4,10 @@
       max-width: 300px;
     }
   }
+
+  &__detail {
+    .item__picture {
+      max-width: 50vw;
+    }
+  }
 }
