@@ -28,8 +28,8 @@ MELI Test
 
 4. breadcumb
    4.1 fill the categories array in backend
-5. limit to 4 results \*/
-6. CSS - pixel perfect
+5. limit to 4 results
+6. CSS - pixel perfect \*
 7. json author signature
 8. Unit test
 9. Environment configuration
