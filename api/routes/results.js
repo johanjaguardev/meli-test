@@ -1,5 +1,6 @@
 const { debug } = require("console");
 const readFile = require("./../utils/readFile");
+const mostAppearances = require("./../utils/mostAppearances");
 
 const resultsRoutes = (app, fs, storePath) => {
   // Notice how we can make this 'read' operation much more simple now.
@@ -7,22 +8,14 @@ const resultsRoutes = (app, fs, storePath) => {
     readFile(
       (data) => {
         const items = data.items;
-        let categories = [];
         let results = [];
         const itemID = req.params["id"];
-        if (typeof req.query.q != "undefined") {
-          categories = [
-            ...categories,
-            ...items
-              .filter((item) =>
-                item.title
-                  .toLowerCase()
-                  .includes(req.query.q.toLowerCase().trim())
-              )
-              .map((item) => item.categories),
-          ].flat(Infinity);
-          categories = [...new Set(categories)];
+        let categories = [...items.map((item) => item.categories)].flat(
+          Infinity
+        );
+        let category = mostAppearances(categories);
 
+        if (typeof req.query.q != "undefined") {
           results = items
             .filter((item) =>
               item.title
@@ -60,7 +53,7 @@ const resultsRoutes = (app, fs, storePath) => {
             name: process.env.AUTHOR_NAME,
             lastname: process.env.AUTHOR_LASTNAME,
           },
-          categories: categories,
+          category: category,
           items: results,
         });
       },

@@ -3,12 +3,12 @@ import { useParams } from "react-router-dom";
 import { Item } from "../Item/Item";
 import { Store } from "../../store/store";
 import { IItem } from "../../interfaces/IItem";
+import { Breadcumb } from "../Breadcumb/Breadcumb";
 
 const Detail = () => {
   const { id } = useParams();
   const store = new Store();
   const [data, setData] = useState({} as IItem);
-
   useEffect(() => {
     if (typeof id === "string") {
       store
@@ -23,6 +23,7 @@ const Detail = () => {
   }, []);
   return (
     <React.Fragment>
+      <Breadcumb>{data.categories}</Breadcumb>
       <Item item={data} presentation="detail" />
     </React.Fragment>
   );

@@ -1,0 +1,1037 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mundial Qatar 2022
+X-WR-TIMEZONE:America/Argentina/Buenos_Aires
+X-WR-CALDESC:Días\, horarios\, TV y toda la info de los 64 partidos de la C
+ opa del Mundo.
+BEGIN:VEVENT
+DTSTART:20221218T150000Z
+DTEND:20221218T180000Z
+DTSTAMP:20221109T144431Z
+UID:2smqloauborkpn2g3fjpusvtpo@google.com
+CLASS:PUBLIC
+CREATED:20221108T203650Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223607Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:FINAL 🌍🏆
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221217T150000Z
+DTEND:20221217T180000Z
+DTSTAMP:20221109T144431Z
+UID:3s29a5t66fn9p2egi3ccbctsf4@google.com
+CLASS:PUBLIC
+CREATED:20221108T203534Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223557Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:3º PUESTO
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221214T190000Z
+DTEND:20221214T220000Z
+DTSTAMP:20221109T144431Z
+UID:5bu268dfv8i44p275d7dij7nj7@google.com
+CLASS:PUBLIC
+CREATED:20221108T203437Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223550Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:SEMIFINAL II (4º de final III🏳 - 4º de final IV🏴)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221213T190000Z
+DTEND:20221213T220000Z
+DTSTAMP:20221109T144431Z
+UID:0evkc6ii1vluenrkmmrdui318r@google.com
+CLASS:PUBLIC
+CREATED:20221108T203329Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223543Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:SEMIFINAL I (4º de final I🏳 - 4º de final II🏴)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221210T190000Z
+DTEND:20221210T220000Z
+DTSTAMP:20221109T144431Z
+UID:0dgqbeu7ifb4616u81bl0a0tv4@google.com
+CLASS:PUBLIC
+CREATED:20221108T202716Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223527Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1B/2A🏳 - 1D/2C🏴 (Cuartos de final IV)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221210T150000Z
+DTEND:20221210T180000Z
+DTSTAMP:20221109T144431Z
+UID:4ber33la5t9hg6khf0ref7h7iv@google.com
+CLASS:PUBLIC
+CREATED:20221108T202809Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223519Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1F/2E🏳 - 1H/2G🏴 (Cuartos de final III)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221209T190000Z
+DTEND:20221209T220000Z
+DTSTAMP:20221109T144431Z
+UID:2p9k8of6v8tu9qsa8qn5nen4f0@google.com
+CLASS:PUBLIC
+CREATED:20221108T202429Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223510Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1A/2B🏳 - 1C/2F🏴 (Cuartos de final II)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221209T150000Z
+DTEND:20221209T180000Z
+DTSTAMP:20221109T144431Z
+UID:7jop158e9mhic0ulpbaugo6k3p@google.com
+CLASS:PUBLIC
+CREATED:20221108T202553Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223500Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1E/2F🏳 - 1G/2H🏴 (Cuartos de final I)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221206T190000Z
+DTEND:20221206T220000Z
+DTSTAMP:20221109T144431Z
+UID:0o3ub036at4qtggl13qf3gavh9@google.com
+CLASS:PUBLIC
+CREATED:20221108T195835Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223447Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1º H🏳 - 2º G🏴 (Octavos de final)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221206T150000Z
+DTEND:20221206T180000Z
+DTSTAMP:20221109T144431Z
+UID:0b2s8mnedofgdhljoi8uta1br2@google.com
+CLASS:PUBLIC
+CREATED:20221108T195754Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223438Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1º F🏳 - 2º E🏴 (Octavos de final)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221205T190000Z
+DTEND:20221205T220000Z
+DTSTAMP:20221109T144431Z
+UID:0sil45eaf66vvimrnd5b9e86ka@google.com
+CLASS:PUBLIC
+CREATED:20221108T195710Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223428Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1º G🏳 - 2º H🏴 (Octavos de final)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221205T150000Z
+DTEND:20221205T180000Z
+DTSTAMP:20221109T144431Z
+UID:6onegjjcqh5m6voo3gesrp2sfk@google.com
+CLASS:PUBLIC
+CREATED:20221108T195610Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223419Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1º E🏳 - 2º F🏴 (Octavos de final)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221204T190000Z
+DTEND:20221204T220000Z
+DTSTAMP:20221109T144431Z
+UID:1jvfm2hjtrp96lpam2qotve78c@google.com
+CLASS:PUBLIC
+CREATED:20221108T195208Z
+DESCRIPTION:<html-blob><u></u><u></u>📺 TV Pública | DirecTV Sports. Seguil
+ o en vivo también en&nbsp\;www.ole.com.ar<br><u></u><u></u></html-blob>
+LAST-MODIFIED:20221108T223409Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1º B🏳 - 2º A🏴 (Octavos de final)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221204T150000Z
+DTEND:20221204T180000Z
+DTSTAMP:20221109T144431Z
+UID:69bjlq71v5mjhhi0cjn9bhcm7c@google.com
+CLASS:PUBLIC
+CREATED:20221108T195312Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223401Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1º D🏳 - 2º C🏴 (Octavos de final)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221203T190000Z
+DTEND:20221203T220000Z
+DTSTAMP:20221109T144431Z
+UID:3esj5nvu3joooaidbqnf2ivr12@google.com
+CLASS:PUBLIC
+CREATED:20221108T195106Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223347Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1º C🏳 - 2º D🏴 (Octavos de final)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221203T150000Z
+DTEND:20221203T180000Z
+DTSTAMP:20221109T144431Z
+UID:4js4k935e3onrdn8ua1sseurbk@google.com
+CLASS:PUBLIC
+CREATED:20221108T195018Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223339Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1º A🏳 - 2º B🏴 (Octavos de final)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221202T190000Z
+DTEND:20221202T210000Z
+DTSTAMP:20221109T144431Z
+UID:0odctt18ji6l6g3vjpp6uld1af@google.com
+CLASS:PUBLIC
+CREATED:20221108T194521Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223330Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Serbia🇷🇸 - Suiza🇨🇭 (Grupo G - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221202T190000Z
+DTEND:20221202T210000Z
+DTSTAMP:20221109T144431Z
+UID:45pvfkldfu56mnn3tcpa9tn4nh@google.com
+CLASS:PUBLIC
+CREATED:20221108T194423Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223322Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Camerún🇨🇲 - Brasil🇧🇷 (Grupo G - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221202T150000Z
+DTEND:20221202T170000Z
+DTSTAMP:20221109T144431Z
+UID:45ojjbp3sjibtec6es0b6rihru@google.com
+CLASS:PUBLIC
+CREATED:20221108T194708Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223311Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ghana🇬🇭 - Uruguay🇺🇾 (Grupo H - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221202T150000Z
+DTEND:20221202T170000Z
+DTSTAMP:20221109T144431Z
+UID:4krab8pgemurt3h4ci6cg5k06q@google.com
+CLASS:PUBLIC
+CREATED:20221108T194636Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223303Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Corea del Sur🇰🇷 - Portugal🇵🇹 (Grupo H - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221201T190000Z
+DTEND:20221201T210000Z
+DTSTAMP:20221109T144431Z
+UID:50sv36ad8nqegklrd05p1sbk8p@google.com
+CLASS:PUBLIC
+CREATED:20221108T193655Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223254Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Japón🇯🇵 - España🇪🇸 (Grupo E - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221201T190000Z
+DTEND:20221201T210000Z
+DTSTAMP:20221109T144431Z
+UID:437624pv6t32t2d5ipm7j858jc@google.com
+CLASS:PUBLIC
+CREATED:20221108T193733Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223245Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Costa Rica🇨🇷 - Alemania🇩🇪 (Grupo E - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221201T150000Z
+DTEND:20221201T170000Z
+DTSTAMP:20221109T144431Z
+UID:41g3f4cjiuhah3p801dhrar8gd@google.com
+CLASS:PUBLIC
+CREATED:20221108T194130Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223235Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Croacia🇭🇷 - Bélgica🇧🇪 (Grupo F - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221201T150000Z
+DTEND:20221201T170000Z
+DTSTAMP:20221109T144431Z
+UID:10qco1n37626uslds5k93d7b5h@google.com
+CLASS:PUBLIC
+CREATED:20221108T194222Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223226Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Canadá🇨🇦 - Bélgica🇲🇦 (Grupo F - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221130T190000Z
+DTEND:20221130T210000Z
+DTSTAMP:20221109T144431Z
+UID:6kh9e915bcuj38mo8o4imp41js@google.com
+CLASS:PUBLIC
+CREATED:20221108T193234Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | TyC Sports&nbsp\;<span>|</spa
+ n><span>&nbsp\;DirecTV Sports.&nbsp\;</span>Seguilo en vivo también en&nbsp
+ \;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223209Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Polonia🇵🇱 - Argentina🇦🇷 (Grupo C - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221130T190000Z
+DTEND:20221130T210000Z
+DTSTAMP:20221109T144431Z
+UID:64ieau1aai08mmscts2f8mfaa3@google.com
+CLASS:PUBLIC
+CREATED:20221108T193322Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports 2 | DirecTV Sports. Seguilo en 
+ vivo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223156Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Arabia Saudita🇸🇦 - México🇲🇽 (Grupo C - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221130T150000Z
+DTEND:20221130T170000Z
+DTSTAMP:20221109T144431Z
+UID:26n07cb91r2b38fi2tcepd0jeb@google.com
+CLASS:PUBLIC
+CREATED:20221108T193426Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223143Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Túnez🇹🇳 - Francia🇫🇷 (Grupo D - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221130T150000Z
+DTEND:20221130T170000Z
+DTSTAMP:20221109T144431Z
+UID:0j13nfuqp8uv3q2s4qnj03nf3p@google.com
+CLASS:PUBLIC
+CREATED:20221108T193509Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223134Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Australia🇦🇺 - Dinamarca🇩🇰 (Grupo D - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221129T190000Z
+DTEND:20221129T210000Z
+DTSTAMP:20221109T144431Z
+UID:5uku7j5cpp30qsoqjpr722ojik@google.com
+CLASS:PUBLIC
+CREATED:20221108T192908Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223123Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Irán🇮🇷 - Estados Unidos🇺🇸 (Grupo B - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221129T190000Z
+DTEND:20221129T210000Z
+DTSTAMP:20221109T144431Z
+UID:29antf28naci25rrkbvt99p04s@google.com
+CLASS:PUBLIC
+CREATED:20221108T192823Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223113Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gales🏴󠁧󠁢󠁷󠁬󠁳󠁿 - Inglaterra🇬🇧 (Grupo B - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221129T150000Z
+DTEND:20221129T170000Z
+DTSTAMP:20221109T144431Z
+UID:3ae2vbgbh36f1o10qu9beb6m0i@google.com
+CLASS:PUBLIC
+CREATED:20221108T192101Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223105Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Países Bajos🇳🇱 - Qatar🇶🇦 (Grupo A - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221129T150000Z
+DTEND:20221129T170000Z
+DTSTAMP:20221109T144431Z
+UID:4h26fnjhmis4tga6t9cboafamr@google.com
+CLASS:PUBLIC
+CREATED:20221108T192150Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223055Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ecuador🇪🇨 - Senegal🇸🇳 (Grupo A - Fecha 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221128T190000Z
+DTEND:20221128T210000Z
+DTSTAMP:20221109T144431Z
+UID:2fg5lk9g0at5bhgsu9ni803515@google.com
+CLASS:PUBLIC
+CREATED:20221108T191716Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223040Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Portugal🇵🇹 - Uruguay🇺🇾 (Grupo H - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221128T160000Z
+DTEND:20221128T180000Z
+DTSTAMP:20221109T144431Z
+UID:36dkg2lurnhu4resfgldhsqca5@google.com
+CLASS:PUBLIC
+CREATED:20221108T191415Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223032Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Brasil🇧🇷 - Suiza🇨🇭 (Grupo G - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221128T130000Z
+DTEND:20221128T150000Z
+DTSTAMP:20221109T144431Z
+UID:484vl25r26clrloi80b4b6ioc2@google.com
+CLASS:PUBLIC
+CREATED:20221108T191532Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223023Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Corea del Sur🇰🇷 - Ghana🇬🇭 (Grupo H - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221128T100000Z
+DTEND:20221128T120000Z
+DTSTAMP:20221109T144431Z
+UID:3krpbdj7kfo07psokf4iqkoevg@google.com
+CLASS:PUBLIC
+CREATED:20221108T191336Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223014Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Camerún🇨🇲 - Serbia🇷🇸 (Grupo G - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221127T190000Z
+DTEND:20221127T210000Z
+DTSTAMP:20221109T144431Z
+UID:6f8che894v86c27qphpohk039s@google.com
+CLASS:PUBLIC
+CREATED:20221108T190953Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T223005Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:España🇪🇸 - Alemania🇩🇪 (Grupo E - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221127T160000Z
+DTEND:20221127T180000Z
+DTSTAMP:20221109T144431Z
+UID:3cieo3uuec4bqq0csh0osh8tvc@google.com
+CLASS:PUBLIC
+CREATED:20221108T191159Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222956Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Croacia🇭🇷 - Canadá🇨🇦 (Grupo F - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221127T130000Z
+DTEND:20221127T150000Z
+DTSTAMP:20221109T144431Z
+UID:578u40b7079k8o9kcc9cq2e3q7@google.com
+CLASS:PUBLIC
+CREATED:20221108T191122Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222944Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bélgica🇧🇪 - Marruecos🇲🇦 (Grupo F - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221127T100000Z
+DTEND:20221127T120000Z
+DTSTAMP:20221109T144431Z
+UID:79e514fhdllt41qigq0uob33ut@google.com
+CLASS:PUBLIC
+CREATED:20221108T190845Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222934Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Japón🇯🇵 - Costa Rica🇨🇷 (Grupo E - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221126T190000Z
+DTEND:20221126T210000Z
+DTSTAMP:20221109T144431Z
+UID:7781hjq1p20c44une3vkolumgr@google.com
+CLASS:PUBLIC
+CREATED:20221108T190251Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | TyC Sports | DirecTV Sports. 
+ Seguilo en vivo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222732Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Argentina🇦🇷 - México🇲🇽 (Grupo C - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221126T160000Z
+DTEND:20221126T180000Z
+DTSTAMP:20221109T144431Z
+UID:5jol3u6p4j3lgv16g2diearcf1@google.com
+CLASS:PUBLIC
+CREATED:20221108T190517Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222724Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Francia🇫🇷 - Dinamarca🇩🇰 (Grupo D - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221126T130000Z
+DTEND:20221126T150000Z
+DTSTAMP:20221109T144431Z
+UID:2v4a7v3iov6qrhqvgopi1fn2i1@google.com
+CLASS:PUBLIC
+CREATED:20221108T190153Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222715Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Polonia🇵🇱 - Arabia Saudita🇸🇦 (Grupo C - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221126T100000Z
+DTEND:20221126T120000Z
+DTSTAMP:20221109T144431Z
+UID:4rlpoj2pa4onv7gtl8gmjao8nm@google.com
+CLASS:PUBLIC
+CREATED:20221108T190431Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222706Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Túnez🇹🇳 - Australia🇦🇺 (Grupo D - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221125T190000Z
+DTEND:20221125T210000Z
+DTSTAMP:20221109T144431Z
+UID:21pn20h66nd10ecnb5upi3f5i0@google.com
+CLASS:PUBLIC
+CREATED:20221108T185955Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222646Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Inglaterra🇬🇧 - Estados Unidos🇺🇸 (Grupo B - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221125T160000Z
+DTEND:20221125T180000Z
+DTSTAMP:20221109T144431Z
+UID:6gqojrg6pdd0n0j6ipjlfjhhtn@google.com
+CLASS:PUBLIC
+CREATED:20221108T185726Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222637Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Países Bajos🇳🇱 - Ecuador🇪🇨 (Grupo A - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221125T130000Z
+DTEND:20221125T150000Z
+DTSTAMP:20221109T144431Z
+UID:08j39ubjakhbhinsf83g3tk5gm@google.com
+CLASS:PUBLIC
+CREATED:20221108T185628Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222628Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Qatar🇶🇦 - Senegal🇸🇳 (Grupo A - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221125T100000Z
+DTEND:20221125T120000Z
+DTSTAMP:20221109T144431Z
+UID:18b32nm968ftdj9kboju5ge1o6@google.com
+CLASS:PUBLIC
+CREATED:20221108T185903Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222619Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gales🏴󠁧󠁢󠁷󠁬󠁳󠁿 - Irán🇮🇷 (Grupo B - Fecha 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221124T190000Z
+DTEND:20221124T210000Z
+DTSTAMP:20221109T144431Z
+UID:36vp5osi1vjit3q5h18rebb7h1@google.com
+CLASS:PUBLIC
+CREATED:20221108T185115Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222351Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Brasil🇧🇷 - Serbia🇷🇸 (Grupo G - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221124T160000Z
+DTEND:20221124T180000Z
+DTSTAMP:20221109T144431Z
+UID:6tnikrq1v0v8q8evnka1iep7ti@google.com
+CLASS:PUBLIC
+CREATED:20221108T185355Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222342Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Portugal🇵🇹 - Ghana🇬🇭 (Grupo H - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221124T130000Z
+DTEND:20221124T150000Z
+DTSTAMP:20221109T144431Z
+UID:5m4v05i1gsla8a94pftgb71gea@google.com
+CLASS:PUBLIC
+CREATED:20221108T185249Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222332Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Uruguay🇺🇾 - Corea del Sur🇰🇷 (Grupo H - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221124T100000Z
+DTEND:20221124T120000Z
+DTSTAMP:20221109T144431Z
+UID:02b0tmgejotabif0obju8du5nn@google.com
+CLASS:PUBLIC
+CREATED:20221108T185022Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222322Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Suiza🇨🇭 - Camerún🇨🇲 (Grupo G - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221123T190000Z
+DTEND:20221123T210000Z
+DTSTAMP:20221109T144431Z
+UID:1n9k57udt15vs0pb3318t6kn05@google.com
+CLASS:PUBLIC
+CREATED:20221108T184849Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222307Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bélgica🇧🇪 - Canadá🇨🇦 (Grupo F - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221123T160000Z
+DTEND:20221123T180000Z
+DTSTAMP:20221109T144431Z
+UID:4bqd29cita72r9l58tjsqh767d@google.com
+CLASS:PUBLIC
+CREATED:20221108T184622Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222257Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:España🇪🇸 - Costa Rica🇨🇷 (Grupo E - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221123T130000Z
+DTEND:20221123T150000Z
+DTSTAMP:20221109T144431Z
+UID:4gkji91c08top8nlmh5p0ebkig@google.com
+CLASS:PUBLIC
+CREATED:20221108T184509Z
+DESCRIPTION:<html-blob><u></u>📺 Tyc Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222248Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Alemania🇩🇪 - Japón🇯🇵 (Grupo E - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221123T100000Z
+DTEND:20221123T120000Z
+DTSTAMP:20221109T144431Z
+UID:35sa65iotfkltic33bf2tbct6t@google.com
+CLASS:PUBLIC
+CREATED:20221108T184747Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222239Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Marruecos🇲🇦 - Croacia🇭🇷 (Grupo F - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221122T190000Z
+DTEND:20221122T210000Z
+DTSTAMP:20221109T144431Z
+UID:5i0dj8h54arot7hjhfl8btm7qe@google.com
+CLASS:PUBLIC
+CREATED:20221108T184326Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222227Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Francia🇫🇷 - Australia🇦🇺 (Grupo D - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221122T160000Z
+DTEND:20221122T180000Z
+DTSTAMP:20221109T144431Z
+UID:2qf4rse4d8ioc50q109v5i6s9n@google.com
+CLASS:PUBLIC
+CREATED:20221108T183759Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222216Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:México🇲🇽 - Polonia🇵🇱 (Grupo C - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221122T130000Z
+DTEND:20221122T150000Z
+DTSTAMP:20221109T144431Z
+UID:72ebgk6isvcb5ruhd9a2ci43vr@google.com
+CLASS:PUBLIC
+CREATED:20221108T184117Z
+DESCRIPTION:<html-blob><u></u>📺 TyC Sports | DirecTV Sports. Seguilo en vi
+ vo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222204Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Dinamarca🇩🇰 - Túnez🇹🇳 (Grupo D - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221122T100000Z
+DTEND:20221122T120000Z
+DTSTAMP:20221109T144431Z
+UID:5kcfj8tugi89gpgbijsg3ua676@google.com
+CLASS:PUBLIC
+CREATED:20221108T183511Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | TyC Sports | DirecTV Sports. 
+ Seguilo en vivo también en&nbsp\;www.ole.com.ar<br><u></u></html-blob>
+LAST-MODIFIED:20221108T222154Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Argentina🇦🇷 - Arabia Saudita🇸🇦 (Grupo C - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221121T190000Z
+DTEND:20221121T210000Z
+DTSTAMP:20221109T144431Z
+UID:6jqs5v6n8jni880lha3deve2r5@google.com
+CLASS:PUBLIC
+CREATED:20221105T194917Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en <a href="http://www.ole.com.ar">www.ole.com.ar</a><br><u></u>
+ </html-blob>
+LAST-MODIFIED:20221108T222043Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Estados Unidos🇺🇸 - Gales🏴󠁧󠁢󠁷󠁬󠁳󠁿 (Grupo B - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221121T160000Z
+DTEND:20221121T180000Z
+DTSTAMP:20221109T144431Z
+UID:6mmar2hac98up2eeprqaudntbv@google.com
+CLASS:PUBLIC
+CREATED:20221105T194324Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en <a href="http://www.ole.com.ar" id="ow949" __is_owner="true">
+ www.ole.com.ar</a><u></u></html-blob>
+LAST-MODIFIED:20221108T222033Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Senegal🇸🇳 - Países Bajos🇳🇱 (Grupo A - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221121T130000Z
+DTEND:20221121T150000Z
+DTSTAMP:20221109T144431Z
+UID:59vk50tu6n541m5to42hha3mvt@google.com
+CLASS:PUBLIC
+CREATED:20221105T194826Z
+DESCRIPTION:<html-blob><u></u>📺 TV Pública | DirecTV Sports. Seguilo en vi
+ vo también en www.ole.com.ar<u></u><br><u></u><br><u></u></html-blob>
+LAST-MODIFIED:20221108T222021Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Inglaterra🇬🇧 - Irán🇮🇷 (Grupo B - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221120T160000Z
+DTEND:20221120T180000Z
+DTSTAMP:20221109T144431Z
+UID:5n8bg41pp0rn42mig9qjlh0705@google.com
+CLASS:PUBLIC
+CREATED:20221105T193840Z
+DESCRIPTION:<html-blob>📺 TV Pública | DirecTV Sports. Seguilo en vivo tamb
+ ién en www.ole.com.ar<u></u></html-blob>
+LAST-MODIFIED:20221108T222003Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Qatar🇶🇦 - Ecuador🇪🇨 (Grupo A - Fecha 1)
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

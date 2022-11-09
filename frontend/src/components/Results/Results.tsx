@@ -1,6 +1,7 @@
 import React, { FC, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Store } from "../../store/store";
+import { Breadcumb } from "../Breadcumb/Breadcumb";
 import { Item } from "../Item/Item";
 
 const Results: FC<{ query?: string }> = () => {
@@ -8,6 +9,7 @@ const Results: FC<{ query?: string }> = () => {
   const search = searchParams.get("search");
   const store = new Store();
   const [data, setData] = useState([]);
+  const [category, setCategory] = useState("");
 
   useEffect(() => {
     if (typeof search === "object") {
@@ -15,6 +17,7 @@ const Results: FC<{ query?: string }> = () => {
         .getAllItems()
         .then((res) => {
           setData(res.items);
+          setCategory(res.category);
         })
         .catch((e) => {
           console.log(e.message);
@@ -24,6 +27,7 @@ const Results: FC<{ query?: string }> = () => {
         .getItemsByQuery(search)
         .then((res) => {
           setData(res.items);
+          setCategory(res.category);
         })
         .catch((e) => {
           console.log(e.message);
@@ -32,6 +36,7 @@ const Results: FC<{ query?: string }> = () => {
   }, []);
   return (
     <React.Fragment>
+      <Breadcumb>{category}</Breadcumb>
       {data.map((i) => (
         <Item item={i} presentation="grid" />
       ))}

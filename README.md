@@ -24,11 +24,16 @@ MELI Test
    3.6 connecting with backend
    3.7 write first component home with all the results
    3.8 write component results with query in searchbox
-   3.9 write detail component with if from results <-- Here
+   3.9 write detail component with if from results
 
-4. CSS - pixel perfect
-5. Unit test
-6. Environment configuration
+4. breadcumb
+   4.1 fill the categories array in backend
+5. limit to 4 results \*/
+6. CSS - pixel perfect
+7. json author signature
+8. Unit test
+9. Environment configuration
+10. beauty not found component
 
 bugfix
 bug0: picture loading from api route - solved
