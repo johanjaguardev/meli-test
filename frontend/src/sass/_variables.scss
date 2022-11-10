@@ -1,5 +1,15 @@
+@use "sass:math";
 $yellow: #ffe600;
 $gray33: #333333;
 $gray66: #666666;
 $gray99: #999999;
 $grayEE: #eeeeee;
+
+$html-font-size: 16px;
+
+@function stripUnit($value) {
+  @return math.div($value, ($value * 0 + 1));
+}
+@function rem($pxValue) {
+  @return #{math.div(stripUnit($pxValue), stripUnit($html-font-size))}rem;
+}

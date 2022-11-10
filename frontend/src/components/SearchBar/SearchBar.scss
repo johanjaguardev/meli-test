@@ -1,6 +1,50 @@
 @import "./../../sass/variables";
+@import "./../../sass/grid";
+
+$box-border-radius: 5px;
+
 .searchbar {
+  align-items: center;
   background-color: $yellow;
-  padding: 1rem;
-  width: 100vw;
+  padding: 0.5rem;
+  &__logo {
+    height: 40px;
+    width: 55px;
+
+    &-link {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      grid-column: col-start 2 / span 1;
+    }
+  }
+  &__input {
+    border: none;
+    border-radius: $box-border-radius 0 0 $box-border-radius;
+    font-size: rem(18px);
+    height: 38px;
+    padding: 0 10px;
+    width: calc(100% - 38px);
+    &-box {
+      box-sizing: border-box;
+      grid-column: col-start 3 / span 9;
+      position: relative;
+    }
+  }
+  &__button {
+    align-items: center;
+    border-radius: 0 $box-border-radius $box-border-radius 0;
+    display: flex;
+    height: 38px;
+    justify-content: center;
+    width: 38px;
+    position: absolute;
+    right: -6px;
+    top: 0;
+  }
+
+  &__icon {
+    height: 18px;
+    width: 18px;
+  }
 }
