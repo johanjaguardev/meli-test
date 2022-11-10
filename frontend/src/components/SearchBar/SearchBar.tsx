@@ -6,6 +6,16 @@ import { useNavigate } from "react-router-dom";
 const SearchBar = () => {
   const [query, setQuery] = useState("");
   const navigate = useNavigate();
+
+  const _handleKeyDown = (e: { key: string }) => {
+    if (e.key === "Enter") {
+      _handleRedirect();
+    }
+  };
+  const _handleRedirect = () => {
+    navigate("/items?search=" + query);
+    navigate(0);
+  };
   return (
     <div className="searchbar">
       <img src={meliLogo} alt="Mercado Libre Logo"></img> SearchBar
@@ -15,15 +25,9 @@ const SearchBar = () => {
         placeholder="Nunca dejes de buscar"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
+        onKeyDown={_handleKeyDown}
       />
-      <button
-        onClick={() => {
-          navigate("/items?search=" + query);
-          navigate(0);
-        }}
-      >
-        Search
-      </button>
+      <button onClick={_handleRedirect}>Search</button>
     </div>
   );
 };

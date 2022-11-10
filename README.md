@@ -30,8 +30,8 @@ MELI Test
    4.1 fill the categories array in backend
 5. limit to 4 results
 6. json author signature
-7. add redirect action to enter key in search \*
-8. CSS - pixel perfect
+7. add redirect action to enter key in search
+8. CSS - pixel perfect \*
 
 9. Unit test
 10. Environment configuration
