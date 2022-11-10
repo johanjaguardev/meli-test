@@ -36,10 +36,12 @@ MELI Test
    8.1 Searchbar component css
    8.2 css Item
    8.3 CSS Detail
-   8.4 CSS Breadcumb \*
-   8.5 css Results
-
-10. Unit test
+   8.4 CSS Breadcumb
+   8.5 css Results \*
+10. fix Bugfix
+11. include features
+12. Unit test
+13. test in vercel
 
 bugfix
 
@@ -48,6 +50,7 @@ bugfix
 bug0: picture loading from api route - solved
 bug1: change redirect with window href location with react router 6 alternative - solved
 bug2: Each child in a list should have a unique "key" prop. - Check the render method of `Results`. - solved
+bug7: first make an research that matches only with 1 result, after that try to come back to home
 
 ## Pending:
 
@@ -55,7 +58,8 @@ bug3: css-outline black in searchbox input
 bug4: price sup about decimals
 bug 5: searchbar always in top and fix windows to start position
 bug6: format amount according currency
-bug7: first make an research that matches only with 1 result, after that try to come back to home
+
+bug8: set a message in case that the query not return any result
 
 feature1: toggle search button if no exist nothing in input
 feature2: fix spacers according design pixel perfect in detail

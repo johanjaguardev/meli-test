@@ -10,23 +10,28 @@ const SearchBar = () => {
 
   const _handleKeyDown = (e: { key: string }) => {
     if (e.key === "Enter") {
-      _handleRedirect();
+      _handleRedirect("/items?search=" + query);
     }
   };
-  const _handleRedirect = () => {
-    navigate("/items?search=" + query);
+  const _handleRedirect = (path: string) => {
+    navigate(path);
     navigate(0);
   };
   return (
     <div className="searchbar">
       <div className="container">
-        <Link to={`/`} className="searchbar__logo-link">
+        <div
+          className="searchbar__logo-link"
+          onClick={() => {
+            _handleRedirect("/");
+          }}
+        >
           <img
             src={meliLogo}
             alt="Mercado Libre Logo"
             className="searchbar__logo"
           />
-        </Link>
+        </div>
 
         <div className="searchbar__input-box">
           <input
@@ -37,7 +42,10 @@ const SearchBar = () => {
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={_handleKeyDown}
           />
-          <button onClick={_handleRedirect} className="searchbar__button">
+          <button
+            onClick={() => _handleRedirect("/items?search=" + query)}
+            className="searchbar__button"
+          >
             <img
               src={searchIcon}
               alt="Search Icon"
