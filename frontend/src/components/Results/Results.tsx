@@ -1,5 +1,6 @@
 import React, { FC, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
+import { IItem } from "../../interfaces/IItem";
 import { Store } from "../../store/store";
 import { Breadcumb } from "../Breadcumb/Breadcumb";
 import { Item } from "../Item/Item";
@@ -35,12 +36,12 @@ const Results: FC<{ query?: string }> = () => {
     }
   }, []);
   return (
-    <React.Fragment>
+    <div className="results">
       <Breadcumb>{category}</Breadcumb>
-      {data.map((i) => (
-        <Item item={i} presentation="grid" />
+      {data.map((i: IItem) => (
+        <Item item={i} presentation="grid" key={i.id} />
       ))}
-    </React.Fragment>
+    </div>
   );
 };
 
