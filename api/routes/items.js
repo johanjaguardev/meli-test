@@ -12,8 +12,8 @@ const itemRoutes = (app, fs, storePath) => {
             .filter((item) => item.id === itemID)
             .map((item) => ({
               author: {
-                name: process.env.AUTHOR_NAME,
-                lastname: process.env.AUTHOR_LASTNAME,
+                name: req.headers.AuthorName,
+                lastname: req.headers.AuthorLastname,
               },
               item: {
                 id: item.id,

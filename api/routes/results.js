@@ -9,11 +9,10 @@ const resultsRoutes = (app, fs, storePath) => {
       (data) => {
         const items = data.items;
         let results = [];
-        const itemID = req.params["id"];
-        let categories = [...items.map((item) => item.categories)].flat(
+        const categories = [...items.map((item) => item.categories)].flat(
           Infinity
         );
-        let category = mostAppearances(categories);
+        const category = mostAppearances(categories);
 
         if (typeof req.query.q != "undefined") {
           results = items
@@ -53,8 +52,8 @@ const resultsRoutes = (app, fs, storePath) => {
         }
         res.send({
           author: {
-            name: process.env.AUTHOR_NAME,
-            lastname: process.env.AUTHOR_LASTNAME,
+            name: req.headers.authorname,
+            lastname: req.headers.authorlastname,
           },
           category: category,
           items: results,

@@ -29,8 +29,9 @@ MELI Test
 4. breadcumb
    4.1 fill the categories array in backend
 5. limit to 4 results
-6. CSS - pixel perfect \*
-7. json author signature
+6. json author signature
+7. CSS - pixel perfect \*
+
 8. Unit test
 9. Environment configuration
 10. beauty not found component
