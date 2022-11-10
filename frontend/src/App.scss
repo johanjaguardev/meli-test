@@ -6,8 +6,12 @@ body {
 }
 
 .MeliApp {
+  background-color: $grayEE;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
   width: 100%;
 }

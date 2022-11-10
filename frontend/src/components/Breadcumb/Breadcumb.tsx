@@ -9,7 +9,7 @@ const Breadcumb: FC<Props> = ({ children }) => {
     <div className="breadcumb">
       <div className="container">
         {Children.map(children, (child) => {
-          return <div className="breadcumb__child">{child}</div>;
+          return <span className="breadcumb__child">{child}</span>;
         })}
       </div>
     </div>

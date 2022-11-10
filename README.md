@@ -31,23 +31,32 @@ MELI Test
 5. limit to 4 results
 6. json author signature
 7. add redirect action to enter key in search
-8. CSS - pixel perfect
+8. beauty not found component
+9. CSS - pixel perfect
    8.1 Searchbar component css
-   8.2 css Results
-   8.3 CSS Breadcumb \*
-   8.4 css Item
-   8.5 CSS Detail
+   8.2 css Item
+   8.3 CSS Detail
+   8.4 CSS Breadcumb \*
+   8.5 css Results
 
-9. Unit test
-10. Environment configuration
-11. beauty not found component
+10. Unit test
 
 bugfix
+
+## Solved:
+
 bug0: picture loading from api route - solved
 bug1: change redirect with window href location with react router 6 alternative - solved
 bug2: Each child in a list should have a unique "key" prop. - Check the render method of `Results`. - solved
+
+## Pending:
+
 bug3: css-outline black in searchbox input
 bug4: price sup about decimals
+bug 5: searchbar always in top and fix windows to start position
+bug6: format amount according currency
+bug7: first make an research that matches only with 1 result, after that try to come back to home
 
 feature1: toggle search button if no exist nothing in input
 feature2: fix spacers according design pixel perfect in detail
+feature3: responsive adjustments

@@ -2,15 +2,19 @@
 @import "./../../sass/layout";
 
 .item {
-  display: grid;
-  gap: 20px;
-  grid-column: 1 / span 10;
-  grid-template-columns: repeat(10, [col-start] 1fr);
-  margin: 0 auto;
+  margin: 0 auto $spacer auto;
   max-width: 100%;
   padding: 1rem;
   position: relative;
+  background-color: $white;
+  border-radius: $box-border-radius;
 
+  .container {
+    display: grid;
+    gap: 20px;
+    grid-column: 1 / span 10;
+    grid-template-columns: repeat(10, [col-start] 1fr);
+  }
   &::after {
     background-color: $grayEE;
     bottom: -10px;

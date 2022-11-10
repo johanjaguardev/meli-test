@@ -2,7 +2,30 @@
 @import "./../../sass/layout";
 .breadcumb {
   background-color: $grayEE;
+  color: $gray66;
+  font-size: rem(14px);
+  padding: $spacer 0;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
   &__child {
-    grid-column: 1 / span 10;
+    padding-right: $spacer;
+    position: relative;
+    &::after {
+      content: ">";
+      font-weight: 400;
+      position: absolute;
+      right: calc($spacer * -0.5);
+    }
+
+    &:last-child {
+      font-weight: 700;
+      &::after {
+        display: none;
+      }
+    }
   }
 }
