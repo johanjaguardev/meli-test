@@ -30,13 +30,14 @@ MELI Test
    4.1 fill the categories array in backend
 5. limit to 4 results
 6. json author signature
-7. CSS - pixel perfect \*
+7. add redirect action to enter key in search \*
+8. CSS - pixel perfect
 
-8. Unit test
-9. Environment configuration
-10. beauty not found component
+9. Unit test
+10. Environment configuration
+11. beauty not found component
 
 bugfix
 bug0: picture loading from api route - solved
-bug1: change redirect with window href location with react router 6 alternative
+bug1: change redirect with window href location with react router 6 alternative - solved
 bug2: Each child in a list should have a unique "key" prop. - Check the render method of `Results`. - solved

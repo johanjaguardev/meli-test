@@ -8,7 +8,7 @@ const Item: FC<{ item: IItem; presentation: string }> = ({
   presentation,
 }) => {
   return (
-    <div className={`item__${presentation}`}>
+    <div className={`item item__${presentation}`}>
       <img src={item.picture} alt={item.title} className="item__picture" />
       <Link to={`/items/${item.id}`}>{item.title}</Link>
     </div>
