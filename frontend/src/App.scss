@@ -1,5 +1,7 @@
+@import "./sass/variables";
 body {
-  font-size: 16px;
+  color: $gray33;
+  font-size: $html-font-size;
   width: 100%;
 }
 

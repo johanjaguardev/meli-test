@@ -18,7 +18,8 @@
         "Vinilo",
         "Heavy Metal",
         "Saxon"
-      ]
+      ],
+      "location": "Bogota"
     },
     {
       "id": "1",
@@ -38,7 +39,8 @@
         "Vinilo",
         "Rock",
         "Elvis Presley"
-      ]
+      ],
+      "location": "Bogota"
     },
     {
       "id": "2",
@@ -58,7 +60,8 @@
         "Vinilo",
         "Rock",
         "AC-DC"
-      ]
+      ],
+      "location": "Bogota"
     },
     {
       "id": "3",
@@ -78,7 +81,8 @@
         "Vinilo",
         "Rock",
         "Scorpions"
-      ]
+      ],
+      "location": "Cucuta"
     },
     {
       "id": "4",
@@ -92,7 +96,8 @@
       "free_shipping": false,
       "sold_quantity": 100,
       "description": "En la calle, en el colectivo o en la oficina, ten siempre a mano tus audífonos KZ y ¡escápate de la rutina por un rato! Vas a \npoder disfrutar de la música que más te gusta y de tus podcasts favoritos cuando quieras y donde quieras. \n\nEl formato perfecto para ti \nAl ser in-ear, mejoran la calidad del audio y son de tamaño pequeño para poder insertarse en tu oreja. Son ideales para acompañarte a la hora de hacer ejercicio mientras te sumerges en el mejor sonido envolvente.",
-      "categories": ["Electrónica", "Audio y VideoAudio", "Audífonos"]
+      "categories": ["Electrónica", "Audio y VideoAudio", "Audífonos"],
+      "location": "Bogota"
     },
     {
       "id": "5",
@@ -106,7 +111,8 @@
       "free_shipping": true,
       "sold_quantity": 1,
       "description": "CABLE DE REEMPLAZO PARA AUDÍFONOS KZ, NUEVOS MODELOS.\n-KZ: ZSN / ZSN Pro / ZSN Pro-X / ZS10 Pro / AS12 / AS16 / ZSX Terminator / ASF / AST / ASX / ZAS / ZAX / ZEX / CRN (ZEX Pro) / EDX Pro / DQ6\n-TRN: ST1, M10, MT1, BA5\nModelos: CON MICRÓFONO (BOTÓN) // SIN MICRÓFONO\n***Confirmar disponibilidad de modelo antes de realizar la compra***\n\nRevive tus valiosos audífonos KZ con este útil cable entorchado de 2 pines\n\n- Longitud del cable: 1.2m\n- Tipo de conector entrada (jack): 3.5mm, oro-plata\n- Tipo de conector auriculares: 0.75mm, 2 pines\n- Botón multifunción: opcional (solo para la versión con micrófono)\n\n-------------------------------------------------\n*** CONTENIDO DEL PAQUETE ***\n-------------------------------------------------\n1x Cable de reemplazo entorchado para audífonos KZ de 2 pines\n\n-----------------------------------\n*** MEDIOS DE PAGO ***\n-----------------------------------\n-Tarjeta Débito/Crédito a través de Mercadopago: sin costos extra\n-Código de cupón (10 dígitos) en Efecty: sin costos extra\n-------------------------------------------------------------------\n*** INFORMACIÓN DE ENTREGAS Y ENVÍOS ***\n-------------------------------------------------------------------\n- No hacemos entregas personales (no contamos con local)\n- Los pedidos se despacharán el siguiente día hábil a la confirmación del pago, y la entrega se dará de acuerdo con los tiempos que maneja MercadoEnvío\nAlianza Mercadolibre-Servientrega)\n- Tiempo máximo de entrega en ciudades principales del país: 2 días hábiles",
-      "categories": ["Electrónica", "Audio y VideoCables", "Otros"]
+      "categories": ["Electrónica", "Audio y VideoCables", "Otros"],
+      "location": "China"
     },
     {
       "id": "6",
@@ -125,7 +131,8 @@
         "Música",
         "Black Metal",
         "Dimmu Borgir"
-      ]
+      ],
+      "location": "Bogota"
     },
     {
       "id": "7",
@@ -144,7 +151,8 @@
         "Música",
         "Heavy Metal",
         "Iron Maiden"
-      ]
+      ],
+      "location": "Cartagena"
     },
     {
       "id": "8",
@@ -163,7 +171,8 @@
         "Audio",
         "Tocadiscos y Accesorios",
         "Tocadiscos"
-      ]
+      ],
+      "location": "Bogota"
     },
     {
       "id": "9",
@@ -181,7 +190,8 @@
         "Celulares y Teléfonos",
         "Accesorios para Celulares",
         "Parlantes"
-      ]
+      ],
+      "location": "Medellin"
     }
   ]
 }

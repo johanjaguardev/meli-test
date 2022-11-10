@@ -32,6 +32,7 @@ const itemRoutes = (app, fs, storePath) => {
                     ? item.description
                     : "El vendedor no incluyó una descripción del producto",
                 categories: item.categories,
+                location: item.location,
               },
             }))
         );

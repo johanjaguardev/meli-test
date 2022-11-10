@@ -9,9 +9,10 @@ interface IItem {
   picture: string;
   condition: string;
   free_shipping: boolean;
-  description?: string;
-  sold_quantity?: number;
+  description: string | null;
+  sold_quantity: number | null;
   categories: [string];
+  location: string;
 }
 
 export type { IItem };

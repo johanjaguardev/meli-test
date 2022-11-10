@@ -1,8 +1,11 @@
 @import "./../../sass/variables";
 @import "./../../sass/layout";
-.breadcumb {
+
+.results {
   background-color: $grayEE;
-  &__child {
-    grid-column: 1 / span 10;
+
+  .container {
+    background-color: $white;
+    border-radius: $box-border-radius;
   }
 }

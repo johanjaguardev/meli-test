@@ -1,7 +1,5 @@
 @import "./../../sass/variables";
-@import "./../../sass/grid";
-
-$box-border-radius: 5px;
+@import "./../../sass/layout";
 
 .searchbar {
   align-items: center;
@@ -10,12 +8,11 @@ $box-border-radius: 5px;
   &__logo {
     height: 40px;
     width: 55px;
-
     &-link {
       align-items: center;
       display: flex;
       justify-content: center;
-      grid-column: col-start 2 / span 1;
+      grid-column: 1 / span 1;
     }
   }
   &__input {
@@ -27,19 +24,20 @@ $box-border-radius: 5px;
     width: calc(100% - 38px);
     &-box {
       box-sizing: border-box;
-      grid-column: col-start 3 / span 9;
+      grid-column: 2 / span 9;
       position: relative;
     }
   }
   &__button {
     align-items: center;
+    background-color: $grayEE;
     border-radius: 0 $box-border-radius $box-border-radius 0;
     display: flex;
     height: 38px;
     justify-content: center;
     width: 38px;
     position: absolute;
-    right: -6px;
+    right: 14px;
     top: 0;
   }
 

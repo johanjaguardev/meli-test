@@ -1,3 +1,4 @@
+import "./Results.scss";
 import React, { FC, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { IItem } from "../../interfaces/IItem";
@@ -36,12 +37,16 @@ const Results: FC<{ query?: string }> = () => {
     }
   }, []);
   return (
-    <div className="results">
+    <React.Fragment>
       <Breadcumb>{category}</Breadcumb>
-      {data.map((i: IItem) => (
-        <Item item={i} presentation="grid" key={i.id} />
-      ))}
-    </div>
+      <div className="results">
+        <div className="container">
+          {data.map((i: IItem) => (
+            <Item item={i} presentation="grid" key={i.id} />
+          ))}
+        </div>
+      </div>
+    </React.Fragment>
   );
 };
 
