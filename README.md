@@ -39,4 +39,4 @@ MELI Test
 bugfix
 bug0: picture loading from api route - solved
 bug1: change redirect with window href location with react router 6 alternative
-bug2: Each child in a list should have a unique "key" prop. - Check the render method of `Results`.
+bug2: Each child in a list should have a unique "key" prop. - Check the render method of `Results`. - solved
