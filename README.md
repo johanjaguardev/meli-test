@@ -1,66 +1,93 @@
-MELI Test
+# MELI Test - Johan Vargas
 
-1. Make an basic API App with node and Express.js
-   (1-feature-basic-api)
+Es una prueba de desarrollo para aspirar a ingresar como desarrollador fullstack a mercadolibre.
 
-2. Make a real api with meli data in node and express (using tdd in point 4)
-   (2-meli-api)
+## Tech Stack
 
-   2.0 docs for meli api
-   2.1 using env variables to set up name and lastname for author
-   2.2 create fake data for json database by files
-   2.3 read data from fake db - READ Action and tested with postman
-   2.4 transform the request to read the info from DB, item with id
-   2.4.1 adding "/items/:id/description" endpoint to the same item get action
-   2.5 transform the get request to read the info from DB and expose results endpoint
+**Clientr:** React, SASS (Con BEM), Typescript, Vite
 
-3. create frontend app with vite + react + typescript
-   3.1 create frontend start project with vite ts react
-   3.2 create first react component
-   3.2.1 create first tdd test with vitest working
-   3.3 implement React router basic
-   3.4 making some css
-   3.5 passing props between searchbox and results and detail components
-   3.6 connecting with backend
-   3.7 write first component home with all the results
-   3.8 write component results with query in searchbox
-   3.9 write detail component with if from results
+**Servidor:** Node, Express
 
-4. breadcumb
-   4.1 fill the categories array in backend
-5. limit to 4 results
-6. json author signature
-7. add redirect action to enter key in search
-8. beauty not found component
-9. CSS - pixel perfect
-   8.1 Searchbar component css
-   8.2 css Item
-   8.3 CSS Detail
-   8.4 CSS Breadcumb
-   8.5 css Results
-10. fix Bugfix
-11. include features
-12. Unit test \*
-13. test in vercel
+## Run Locally
 
-bugfix
+Clona el proyecto
 
-## Solved:
+```bash
+  git clone https://github.com/johanjaguardev/meli-test.git
+```
 
-bug0: picture loading from api route - solved
-bug1: change redirect with window href location with react router 6 alternative - solved
-bug2: Each child in a list should have a unique "key" prop. - Check the render method of `Results`. - solved
-bug7: first make an research that matches only with 1 result, after that try to come back to home
-bug3: css-outline black in searchbox input
-bug4: price sup about decimals
-bug 5: searchbar always in top and fix windows to start position
-bug6: format amount according currency
-bug8: set a message in case that the query not return any result
-bug10: in a parameter search set the input searchbox value with the query parameter
-bug9: last line in results is not hidden
-feature1: toggle search button if no exist nothing in input
-feature2: fix spacers according design pixel perfect in detail
-f2.1 fix spaces in results
-f2.2 fix spaces in detail
-feature3: responsive adjustments
-feature 4: title MELI Johan Vargas
+En el directorio del proyecto, vamos a instalar y correr las aplicaciones de servidor y de cliente
+
+Servidor
+
+```bash
+  cd api
+  npm install
+  npm run dev
+```
+
+Cliente
+
+```bash
+  cd frontend
+  npm install
+  npm run start
+```
+
+## Roadmap
+
+- Crear una API basica con node.js y Express
+- Crear el API - Simulando datos reales con Mocks
+
+  - Crear datos mockeados y guardarlos en "api/data/store.json"
+  - Leer los datos en node para el endpoint “/” y testearlos con postman (todos los registros de la base de datos)
+  - Crear el request para leer segun el campo "id" con el endpoint “/items/:id”
+  - Agregar el endpoint "/items/:id/description" para leer el item con id
+  - Crear el endpoint “/items?search=”
+  - Llenar el campo categorias en cada uno de los endpoints
+  - Limitar los resultados arrojados por los endpoint "/" y “/items?search=” para arrojar los 4 primeros resultados
+
+- Crear una aplicacion del lado del cliente con "React + Typescript" y apoyandonos en "Vite"
+  - Crear primer aplicacion por defecto
+  - Crear primer componente en React
+  - Implementar React Router v.6 con tareas basicas
+  - Implementar algunas reglas basicas de CSS con SASS
+  - Crear componentes Searchbar, Results y Details
+  - Comunicar los props desde Searchbar hacia Results y Detail
+  - Crear una clase Store con las funciones para conectar la aplicacion de cliente con el backend en la url "/frontend/src/store/store.tsx"
+  - Crear primer componente Home con la busqueda inicial "/" que trae todos los resultados de la DB
+  - Crear componente Item con su interface asociada
+  - Modificar el componente Results con el query leido desde el componente Searcbox e imprimir los resultados implementando el componente Item
+  - Modificar el componente Detail e implementar el componente Item creado anteriormente
+  - Crear el componente Breadcumb
+  - Agregar las JSON Signature a traves de los headers del request en el lado del cliente y leerlos desde el backend despues y exponerlo en cada enpoint
+- Refinamiento de CSS
+  - Searchbar Pixel Perfect CSS
+  - Detail Pixel Perfect CSS
+  - Breadcumb Pixel Perfect CSS
+  - Results Pixel Perfect CSS
+- Nuevos Features
+  - Feature: Agregar una accion de redireccion a la tecla enter en el componente Searchbar
+  - Feature: Crear un componente 404 para las busquedas que no estan incluidas en los endpoint y crear su respectivo css
+  - Feature: Habiltar / Inhabilitar boton de busqueda si existe texto tipeado en Searchbar o no
+  - Feature: Dar titulo a la aplicacion "MELI Test Johan Vargas"
+- Bugfix
+  - Bug 0: La carga de la imagen esta fallando (Solucionado)
+  - Bug 1: Inicialmente la redireccion en SearchBar se hizo con window.location.href, cambiar por su alternativa de react (useNavigate Hook) (Solucionado)
+  - Bug 2: Solucionar Warning ->"Each child in a list should have a unique "key" prop. - Check the render method of `Results`". (Solucionado)
+  - Bug 3: Outline negro en el componente SearchBox. (Solucionado)
+  - Bug 4: Alineacion de decimales en el campo precio en el componente de Detail
+  - Bug 5: Manejo de alturas de los divs y anchos (Solucionado)
+  - Bug 6: Formato de moneda para los campos de precio en el componente Item (Solucionado)
+  - Bug 7: Al hacer una busqueda que arroja 1 solo campo y tratar de volver al home se presenta error. (Solucionado)
+  - Bug 8: No hay mensaje en caso de que una busqueda no arroje resultados (Solucionado)
+  - Bug 9: La linea que separa los items en la vista de Results no deberia verse para el ultimo item (Solucionado)
+  - Bug 10: Conservar el valor de parametro de la query en el input de SearchBar component (Solucionado)
+
+## Optimizaciones
+
+En este punto me gustaria generar mas test unitarios, asi como dar un enfoque a la usabilidad mas profundo.
+
+## Feedback
+
+Si me sugieren algun tipo de feedback estoy abierto a recibirlo, mi correo electronico es johanvargasdev@gmail.com

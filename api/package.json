@@ -4,7 +4,7 @@
   "description": "Rest API for MercadoLibre Test",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env AUTHOR_NAME=Johan AUTHOR_LASTNAME=Vargas ASSETS_PATH= nodemon index.js",
+    "dev": "cross-env ASSETS_PATH= nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Johan Vargas Sánchez",
