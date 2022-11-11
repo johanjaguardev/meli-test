@@ -2,10 +2,12 @@ import { useState } from "react";
 import "./SearchBar.scss";
 import meliLogo from "./../../../public/Logo_ML@2x.png";
 import searchIcon from "./../../../public/ic_Search@2x.png";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 
 const SearchBar = () => {
-  const [query, setQuery] = useState("");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const search = searchParams.get("search");
+  const [query, setQuery] = useState(search === null ? "" : search);
   const navigate = useNavigate();
 
   const _handleKeyDown = (e: { key: string }) => {

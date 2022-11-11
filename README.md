@@ -55,11 +55,12 @@ bug3: css-outline black in searchbox input
 bug4: price sup about decimals
 bug 5: searchbar always in top and fix windows to start position
 bug6: format amount according currency
+bug8: set a message in case that the query not return any result
+bug10: in a parameter search set the input searchbox value with the query parameter
 
 ## Pending:
 
-bug8: set a message in case that the query not return any result \*
-bug9: last line in results is not hidden
+bug9: last line in results is not hidden \*
 
 feature1: toggle search button if no exist nothing in input
 feature2: fix spacers according design pixel perfect in detail

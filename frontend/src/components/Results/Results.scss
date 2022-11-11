@@ -9,4 +9,9 @@
     border-radius: $box-border-radius;
     margin-bottom: calc($spacer * 2);
   }
+
+  &__notresults {
+    grid-column: 1 / span 10;
+    padding: calc($spacer * 5);
+  }
 }

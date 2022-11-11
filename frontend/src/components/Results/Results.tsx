@@ -41,6 +41,11 @@ const Results: FC<{ query?: string }> = () => {
       <Breadcumb>{category}</Breadcumb>
       <div className="results">
         <div className="container">
+          {data.length == 0 && (
+            <div className="results__notresults">
+              This search doesn't have any result
+            </div>
+          )}
           {data.map((i: IItem) => (
             <Item item={i} presentation="grid" key={i.id} />
           ))}
