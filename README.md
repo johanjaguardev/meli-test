@@ -39,8 +39,8 @@ MELI Test
    8.4 CSS Breadcumb
    8.5 css Results
 10. fix Bugfix
-11. include features \*
-12. Unit test
+11. include features
+12. Unit test \*
 13. test in vercel
 
 bugfix
@@ -59,11 +59,11 @@ bug8: set a message in case that the query not return any result
 bug10: in a parameter search set the input searchbox value with the query parameter
 bug9: last line in results is not hidden
 feature1: toggle search button if no exist nothing in input
-
-## Pending:
-
 feature2: fix spacers according design pixel perfect in detail
 f2.1 fix spaces in results
 f2.2 fix spaces in detail
 feature3: responsive adjustments
-feature 4: favicon + title MELI Johan Vargas \*
+
+## Pending:
+
+feature 4: title MELI Johan Vargas \*
