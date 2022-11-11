@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./SearchBar.scss";
 import meliLogo from "./../../../public/Logo_ML@2x.png";
 import searchIcon from "./../../../public/ic_Search@2x.png";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const SearchBar = () => {
   const [query, setQuery] = useState("");
