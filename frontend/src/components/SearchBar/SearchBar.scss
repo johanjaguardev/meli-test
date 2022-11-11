@@ -28,6 +28,10 @@
       grid-column: 2 / span 9;
       position: relative;
     }
+
+    &:focus-visible {
+      outline: 1px solid $grayEE;
+    }
   }
   &__button {
     align-items: center;
