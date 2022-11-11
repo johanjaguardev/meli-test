@@ -49,8 +49,11 @@
       transition: 0.3s ease-in-out opacity;
     }
 
-    &.disabled img {
-      opacity: 0.3;
+    &.disabled {
+      cursor: not-allowed;
+      img {
+        opacity: 0.3;
+      }
     }
   }
 
