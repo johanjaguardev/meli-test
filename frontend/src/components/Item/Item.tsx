@@ -64,8 +64,6 @@ const Item: FC<{ item: IItem; presentation: string }> = ({
                 <img src={shippingIcon} className="item__free_shipping-icon" />
               </div>
             )}
-
-            <div className="item__free_shipping"></div>
           </div>
           {presentation === "detail" && (
             <button className="item__button">Comprar</button>
