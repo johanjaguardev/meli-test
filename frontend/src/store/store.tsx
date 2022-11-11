@@ -22,7 +22,6 @@ class Store {
   getAllItems = async () => {
     const response = await fetch(`${this.url}`, this.headers);
     if (!response.ok) {
-      debugger;
       throw new Error("Data coud not be fetched!");
     } else {
       return response.json();

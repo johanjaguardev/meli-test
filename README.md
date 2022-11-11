@@ -63,7 +63,4 @@ feature2: fix spacers according design pixel perfect in detail
 f2.1 fix spaces in results
 f2.2 fix spaces in detail
 feature3: responsive adjustments
-
-## Pending:
-
-feature 4: title MELI Johan Vargas \*
+feature 4: title MELI Johan Vargas

@@ -1,10 +1,12 @@
-import { describe, expect, it } from "vitest";
+import { MemoryRouter } from "react-router-dom";
+import { describe, it } from "vitest";
 import App from "./App";
-import { render, screen, userEvent } from "./utils/test-utils";
+import { render } from "./utils/test-utils";
 
-describe("Simple working test", () => {
-  // it("the title is visible", () => {
-  //   render(<App />);
-  //   expect(screen.getByText("Vite + React")).toBeInTheDocument();
-  // });
+describe("SearchBar", (): void => {
+  it("Should Render", (): void => {
+    render(<App />, {
+      wrapper: MemoryRouter,
+    });
+  });
 });

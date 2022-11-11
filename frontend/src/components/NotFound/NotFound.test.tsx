@@ -1,9 +1,10 @@
-import { describe, expect, it } from "vitest";
-import { render, screen, cleanup, fireEvent } from "@testing-library/react";
+import { describe, it } from "vitest";
+import { render } from "@testing-library/react";
 import { NotFound } from "./NotFound";
+import { MemoryRouter } from "react-router-dom";
 
 describe("NotFound", (): void => {
   it("Should Render", (): void => {
-    render(<NotFound />);
+    render(<NotFound />, { wrapper: MemoryRouter });
   });
 });
