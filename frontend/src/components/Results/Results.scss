@@ -1,0 +1,18 @@
+@import "./../../sass/variables";
+@import "./../../sass/layout";
+
+.results {
+  background-color: $grayEE;
+
+  .container {
+    background-color: $white;
+    border-radius: $box-border-radius;
+    gap: 0;
+    margin-bottom: 0;
+  }
+
+  &__notresults {
+    grid-column: 1 / span 10;
+    padding: calc($spacer * 5);
+  }
+}

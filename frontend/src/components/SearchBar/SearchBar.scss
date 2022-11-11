@@ -1,0 +1,68 @@
+@import "./../../sass/variables";
+@import "./../../sass/layout";
+
+.searchbar {
+  align-items: center;
+  background-color: $yellow;
+  padding: 0.5rem;
+  &__logo {
+    height: 40px;
+    width: 55px;
+    &-link {
+      align-items: center;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      grid-column: 1 / span 1;
+    }
+  }
+  &__input {
+    border: none;
+    border-radius: $box-border-radius 0 0 $box-border-radius;
+    font-size: rem(18px);
+    height: 38px;
+    padding: 0 10px;
+    width: calc(100% - 38px);
+    &-box {
+      box-sizing: border-box;
+      grid-column: 2 / span 9;
+      position: relative;
+    }
+
+    &:focus-visible {
+      outline: 1px solid $grayEE;
+    }
+  }
+  &__button {
+    align-items: center;
+    background-color: $grayEE;
+    border-radius: 0 $box-border-radius $box-border-radius 0;
+    display: flex;
+    height: 38px;
+    justify-content: center;
+    width: 38px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    img {
+      transition: 0.3s ease-in-out opacity;
+    }
+
+    &.disabled {
+      cursor: not-allowed;
+      img {
+        opacity: 0.3;
+      }
+    }
+  }
+
+  &__icon {
+    height: 18px;
+    width: 18px;
+  }
+
+  .container {
+    grid-template-columns: 55px repeat(9, [col-start] 1fr);
+  }
+}

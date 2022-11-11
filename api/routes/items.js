@@ -7,14 +7,13 @@ const itemRoutes = (app, fs, storePath) => {
       (data) => {
         const items = data.items;
         const itemID = req.params["id"];
-
         res.send(
           items
             .filter((item) => item.id === itemID)
             .map((item) => ({
               author: {
-                name: process.env.AUTHOR_NAME,
-                lastname: process.env.AUTHOR_LASTNAME,
+                name: req.headers.AuthorName,
+                lastname: req.headers.AuthorLastname,
               },
               item: {
                 id: item.id,
@@ -32,6 +31,8 @@ const itemRoutes = (app, fs, storePath) => {
                   item.description !== ""
                     ? item.description
                     : "El vendedor no incluyó una descripción del producto",
+                categories: item.categories,
+                location: item.location,
               },
             }))
         );

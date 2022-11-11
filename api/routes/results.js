@@ -1,4 +1,6 @@
+const { debug } = require("console");
 const readFile = require("./../utils/readFile");
+const mostAppearances = require("./../utils/mostAppearances");
 
 const resultsRoutes = (app, fs, storePath) => {
   // Notice how we can make this 'read' operation much more simple now.
@@ -6,22 +8,13 @@ const resultsRoutes = (app, fs, storePath) => {
     readFile(
       (data) => {
         const items = data.items;
-        let categories = [];
         let results = [];
-        const itemID = req.params["id"];
-        if (typeof req.query.q != "undefined") {
-          categories = [
-            ...categories,
-            ...items
-              .filter((item) =>
-                item.title
-                  .toLowerCase()
-                  .includes(req.query.q.toLowerCase().trim())
-              )
-              .map((item) => item.categories),
-          ].flat(Infinity);
-          categories = [...new Set(categories)];
+        const categories = [...items.map((item) => item.categories)].flat(
+          Infinity
+        );
+        const category = mostAppearances(categories);
 
+        if (typeof req.query.q != "undefined") {
           results = items
             .filter((item) =>
               item.title
@@ -39,14 +32,32 @@ const resultsRoutes = (app, fs, storePath) => {
               picture: `${process.env.ASSETS_PATH}/${item.picture}`,
               condition: item.condition,
               free_shipping: item.free_shipping,
-            }));
+              location: item.location,
+            }))
+            .slice(0, 4);
+        } else if (!/\?.+/.test(req.url)) {
+          results = items
+            .map((item) => ({
+              id: item.id,
+              title: item.title,
+              price: {
+                currency: item.price.currency,
+                amount: item.price.value.toString().split(".")[0],
+                decimal: item.price.value.toString().split(".")[1],
+              },
+              picture: `${process.env.ASSETS_PATH}/${item.picture}`,
+              condition: item.condition,
+              free_shipping: item.free_shipping,
+              location: item.location,
+            }))
+            .slice(0, 4);
         }
         res.send({
           author: {
-            name: process.env.AUTHOR_NAME,
-            lastname: process.env.AUTHOR_LASTNAME,
+            name: req.headers.authorname,
+            lastname: req.headers.authorlastname,
           },
-          categories: categories,
+          category: category,
           items: results,
         });
       },

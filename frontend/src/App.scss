@@ -1,0 +1,17 @@
+@import "./sass/variables";
+body {
+  color: $gray33;
+  font-size: $html-font-size;
+  width: 100%;
+}
+
+.MeliApp {
+  background-color: $grayEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+}
