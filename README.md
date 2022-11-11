@@ -65,5 +65,5 @@ feature1: toggle search button if no exist nothing in input
 feature2: fix spacers according design pixel perfect in detail
 f2.1 fix spaces in results
 f2.2 fix spaces in detail
-feature3: responsive adjustments \*
-feature 4: favicon + title MELI Johan Vargas
+feature3: responsive adjustments
+feature 4: favicon + title MELI Johan Vargas \*
