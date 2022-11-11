@@ -38,8 +38,8 @@ MELI Test
    8.3 CSS Detail
    8.4 CSS Breadcumb
    8.5 css Results
-10. fix Bugfix \*
-11. include features
+10. fix Bugfix
+11. include features \*
 12. Unit test
 13. test in vercel
 
@@ -57,11 +57,11 @@ bug 5: searchbar always in top and fix windows to start position
 bug6: format amount according currency
 bug8: set a message in case that the query not return any result
 bug10: in a parameter search set the input searchbox value with the query parameter
+bug9: last line in results is not hidden
 
 ## Pending:
 
-bug9: last line in results is not hidden \*
-
-feature1: toggle search button if no exist nothing in input
+feature1: toggle search button if no exist nothing in input \*
 feature2: fix spacers according design pixel perfect in detail
 feature3: responsive adjustments
+feature 4: favicon + title MELI Johan Vargas

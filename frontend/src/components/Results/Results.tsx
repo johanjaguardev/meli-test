@@ -43,7 +43,7 @@ const Results: FC<{ query?: string }> = () => {
         <div className="container">
           {data.length == 0 && (
             <div className="results__notresults">
-              This search doesn't have any result
+              Esta busqueda no ha arrojado ningun resultado
             </div>
           )}
           {data.map((i: IItem) => (
