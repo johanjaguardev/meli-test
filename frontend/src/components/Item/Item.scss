@@ -86,9 +86,11 @@
   &__location {
     color: $gray66;
     font-size: rem(12px);
+    margin-top: $spacer;
   }
 
   &__free_shipping {
+    margin-top: $spacer;
     padding-left: calc($spacer * 0.5);
     img {
       height: 24px;
@@ -115,6 +117,7 @@
     .item__price {
       font-size: rem(24px);
       font-weight: 400;
+      margin-top: $spacer;
 
       &-decimal {
         font-size: rem(24px);
@@ -130,6 +133,12 @@
       order: 2;
       a {
         color: $gray33;
+        transition: 0.3s ease-in-out color;
+        &:hover,
+        &:active,
+        &:focus {
+          color: $blue;
+        }
       }
     }
 

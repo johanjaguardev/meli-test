@@ -41,7 +41,13 @@ const Item: FC<{ item: IItem; presentation: string }> = ({
           <div className="item__price-box">
             {item.price !== undefined && (
               <div className="item__price">
-                <span className="item__price-amount">{item.price.amount}</span>
+                <span className="item__price-amount">
+                  {new Intl.NumberFormat("es-CO", {
+                    style: "currency",
+                    currency: item.price.currency,
+                    maximumSignificantDigits: 3,
+                  }).format(item.price.amount)}
+                </span>
                 {presentation === "detail" && (
                     <sup className="item__price-decimal">
                       {item.price.decimal}
