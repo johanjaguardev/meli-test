@@ -48,6 +48,7 @@ const resultsRoutes = (app, fs, storePath) => {
               picture: `${process.env.ASSETS_PATH}/${item.picture}`,
               condition: item.condition,
               free_shipping: item.free_shipping,
+              location: item.location,
             }))
             .slice(0, 4);
         }

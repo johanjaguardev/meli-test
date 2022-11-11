@@ -82,9 +82,61 @@
       font-weight: 400;
     }
   }
+
+  &__location {
+    color: $gray66;
+    font-size: rem(12px);
+  }
+
+  &__free_shipping {
+    padding-left: calc($spacer * 0.5);
+    img {
+      height: 24px;
+      width: 24px;
+    }
+  }
   &__grid {
+    grid-column: 1 / span 10;
+
     .item__column-1 {
       grid-column: 1 / span 2;
+    }
+
+    .item__column-2 {
+      display: flex;
+      flex-direction: column;
+      grid-column: 3 / span 6;
+    }
+
+    .item__column-3 {
+      grid-column: 9 / span 2;
+    }
+
+    .item__price {
+      font-size: rem(24px);
+      font-weight: 400;
+
+      &-decimal {
+        font-size: rem(24px);
+      }
+
+      &-currency {
+        font-size: rem(24px);
+      }
+    }
+
+    .item__title {
+      font-size: rem(18px);
+      order: 2;
+      a {
+        color: $gray33;
+      }
+    }
+
+    .item__price-box {
+      display: flex;
+      flex-direction: row;
+      order: 1;
     }
   }
 

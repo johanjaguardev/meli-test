@@ -37,8 +37,8 @@ MELI Test
    8.2 css Item
    8.3 CSS Detail
    8.4 CSS Breadcumb
-   8.5 css Results \*
-10. fix Bugfix
+   8.5 css Results
+10. fix Bugfix \*
 11. include features
 12. Unit test
 13. test in vercel
