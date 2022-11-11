@@ -46,7 +46,8 @@ const SearchBar = () => {
           />
           <button
             onClick={() => _handleRedirect("/items?search=" + query)}
-            className="searchbar__button"
+            className={`searchbar__button ${query === "" ? "disabled" : ""}`}
+            disabled={query === ""}
           >
             <img
               src={searchIcon}

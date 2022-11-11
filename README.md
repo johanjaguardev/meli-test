@@ -58,10 +58,10 @@ bug6: format amount according currency
 bug8: set a message in case that the query not return any result
 bug10: in a parameter search set the input searchbox value with the query parameter
 bug9: last line in results is not hidden
+feature1: toggle search button if no exist nothing in input
 
 ## Pending:
 
-feature1: toggle search button if no exist nothing in input \*
-feature2: fix spacers according design pixel perfect in detail
+feature2: fix spacers according design pixel perfect in detail \*
 feature3: responsive adjustments
 feature 4: favicon + title MELI Johan Vargas
